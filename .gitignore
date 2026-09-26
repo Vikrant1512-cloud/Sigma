@@ -19,8 +19,8 @@ dist/
 *.sqlite3
 
 # Private PDFs
-storage/private_pdfs/*
-!storage/private_pdfs/.gitkeep
+/backend/storage/private_pdfs/*
+!/backend/storage/private_pdfs/.gitkeep
 
 # VS Code
 .vscode/
