@@ -1,0 +1,29 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/.venv/
+
+# Node
+node_modules/
+dist/
+
+# Database
+*.db
+*.sqlite3
+
+# Private PDFs
+storage/private_pdfs/*
+!storage/private_pdfs/.gitkeep
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
