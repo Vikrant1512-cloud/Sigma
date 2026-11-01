@@ -1,9 +1,19 @@
+# Secrets
+.env
+**/.env
+
+# Python
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Local database and uploaded PDFs
+backend/sigma.db
+backend/storage/
+
+# Node
 node_modules/
 dist/
-.env
-.env.*
-!.env.example
-.venv/
-__pycache__/
-*.pyc
-*.db
+
+# Editor
+.vscode/
